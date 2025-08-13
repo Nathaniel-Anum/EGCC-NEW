@@ -93,10 +93,10 @@ export default function Hero() {
 
         {/* Hero Content */}
         <div className="relative bottom-[6rem] md:bottom-[8rem] z-10 flex flex-col items-center justify-center text-center h-full text-white px-4">
-          <h2 className="lg:text-[5rem] text-[4rem] md:text-6xl italic  font-corinthia-regular mb-4">
+          <h2 className="lg:text-[5rem] text-[4rem] md:text-6xl italic  font-corinthia-regular ">
             Welcome To
           </h2>
-          <h2 className="text-4xl font-mozilla-headline md:text-6xl  font-bold mb-4">
+          <h2 className="text-4xl font-mozilla-headline md:text-6xl  font-bold mb-1">
             Experience Grace
           </h2>
           <h2 className="text-4xl md:text-6xl font-mozilla-headline font-bold mb-4">City Church</h2>

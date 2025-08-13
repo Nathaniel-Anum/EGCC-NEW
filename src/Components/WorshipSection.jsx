@@ -27,13 +27,13 @@ const WorshipSection = () => {
   return (
     <section className="bg-gray-100 py-5 font-mozilla-headline">
       <div className="max-w-7xl mx-auto px-6 text-center">
-        <h2 className="text-[3rem] font-bold mb-4 relative inline-block">
+        <h2 className="text-[3rem]  font-bold mb-4 relative inline-block">
           WORSHIP
           <span className="after:block after:h-1 after:w-20 after:bg-yellow-500 after:mt-2 after:rounded-full"></span>
           WITH US
         </h2>
 
-        <div className="mt-4 grid md:grid-cols-3 gap-8">
+        <div className="mt-4 grid lg:grid-cols-3  md:grid-cols-2 gap-8">
           {cards.map((card, index) => (
             <div
               key={index}
