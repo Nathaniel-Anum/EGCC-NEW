@@ -17,7 +17,7 @@ const WorshipSection = () => {
       image: visitImg2,
     },
     {
-      title: "3. Prayer & Prophetic",
+      title: "3. Friday Service",
       description:
         "Join us every Friday at 6pm for an intimate time of prayer and prophetic ministry. Experience God’s presence as we seek His guidance, intercede for our community, and hear words of encouragement and revelation. Whether you are looking for personal breakthroughs, spiritual growth, or a deeper connection with God, this service is designed to uplift, inspire, and empower you. ",
       image: visitImg3,
