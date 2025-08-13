@@ -7,7 +7,11 @@ const Navbar = ({ theme = "light" }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const textColor = theme === "dark" ? "text-white" : "text-black";
-  const hamburgerColor = theme === "dark" ? "bg-white" : "bg-black";
+  const hamburgerColor = isOpen
+    ? "bg-black"
+    : theme === "dark"
+    ? "bg-white"
+    : "bg-black";
 
   return (
     <>
