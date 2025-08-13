@@ -18,7 +18,7 @@ const Navbar = ({ theme = "light" }) => {
       <nav
         className={`relative z-40 font-lora font-mozilla-headline flex justify-between items-center px-6 py-4  ${textColor}`}
       >
-        <div className="rounded-full overflow-hidden w-[9rem] h-[9rem] max-sm:w-[5rem] max-sm:h-[5rem] md:h-[7rem] md:w-[7rem]">
+        <div className="rounded-full overflow-hidden w-[9rem] h-[9rem] max-sm:w-[4rem] max-sm:h-[4rem] md:h-[7rem] md:w-[7rem]">
           <img src={pic} alt="logo" />
         </div>
 

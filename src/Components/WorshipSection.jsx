@@ -37,10 +37,10 @@ const WorshipSection = () => {
           {cards.map((card, index) => (
             <div
               key={index}
-              className="bg-white pb-12 rounded-md shadow-md overflow-hidden flex flex-col "
+              className="bg-white pb-2 rounded-md shadow-md overflow-hidden flex flex-col "
             >
               <div
-                className={`w-full h-66 md:h-[79] bg-cover   bg-center ${
+                className={`w-full h-87 md:h-[79] bg-cover  bg-center ${
                   index === 0 ? "rounded-b-lg" : ""
                 }`}
                 style={{ backgroundImage: `url(${card.image})` }}
