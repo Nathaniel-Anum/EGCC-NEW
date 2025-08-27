@@ -1,6 +1,7 @@
 import visitImg1 from "../assets/Sunday.jpg"; // Replace with your images
 import visitImg2 from "../assets/Tuesday.jpg";
 import visitImg3 from "../assets/Friday.jpg";
+import visitImg4 from "../assets/Wednesday.jpg";
 
 const WorshipSection = () => {
   const cards = [
@@ -15,6 +16,12 @@ const WorshipSection = () => {
       description:
         "Join us every Tuesday at 6pm for a refreshing service filled with inspiring worship, uplifting music, and a message that speaks to your heart. Come connect with our community, grow in faith, and experience fellowship in a welcoming and warm environment.",
       image: visitImg2,
+    },
+    {
+      title: "3. Jabez Hour",
+      description:
+        "Join us every Wednesday at 9am for a refreshing service filled with inspiring worship, uplifting music, and a message that speaks to your heart. Come connect with our community, grow in faith, and experience fellowship in a welcoming and warm environment.",
+      image: visitImg4,
     },
     {
       title: "3. Friday Service",
@@ -33,7 +40,7 @@ const WorshipSection = () => {
           WITH US
         </h2>
 
-        <div className="mt-4 grid lg:grid-cols-3  md:grid-cols-2 gap-8">
+        <div className="mt-4 grid lg:grid-cols-2  md:grid-cols-2 gap-8">
           {cards.map((card, index) => (
             <div
               key={index}

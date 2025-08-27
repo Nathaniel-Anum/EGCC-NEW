@@ -30,8 +30,12 @@ const Navbar = ({ theme = "light" }) => {
           <Link to="/about">
             <li className={`hover:text-yellow-400 cursor-pointer`}>About</li>
           </Link>
-          <li className={`hover:text-yellow-400 cursor-pointer`}>Contact</li>
-          <li className={`hover:text-yellow-400 cursor-pointer`}>Give</li>
+          <Link to="/team">
+            <li className={`hover:text-yellow-400 cursor-pointer`}>Our Team</li>
+          </Link>
+          <Link to="/give">
+            <li className={`hover:text-yellow-400 cursor-pointer`}>Give</li>
+          </Link>
         </ul>
 
         {/* Hamburger (turns into X) */}
@@ -79,11 +83,11 @@ const Navbar = ({ theme = "light" }) => {
             About
           </Link>
           <Link
-            to="/contact"
+            to="/team"
             onClick={() => setIsOpen(false)}
             className="hover:opacity-70"
           >
-            Contact
+            Our Team
           </Link>
           <Link
             to="/give"
