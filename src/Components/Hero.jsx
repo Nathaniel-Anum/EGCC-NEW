@@ -105,9 +105,8 @@ export default function Hero() {
         {/* Dark overlay */}
         <div className="absolute inset-0 bg-black/40 z-0"></div>
 
-        <header className="relative">
-          <Navbar theme="dark" />
-        </header>
+        <Navbar theme="dark" />
+        <header className="relative"></header>
 
         {/* Hero Content */}
         <div className="relative bottom-[6rem] md:bottom-[8rem] z-10 flex flex-col items-center justify-center text-center h-full text-white px-4">

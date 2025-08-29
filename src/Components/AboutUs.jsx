@@ -116,7 +116,17 @@ const AboutUs = () => {
               </h3>
               <div className="space-y-16">
                 <div className="grid md:grid-cols-2 gap-8 items-center min-h-[400px] md:min-h-[600px]">
-                  {/* Text Section - always on the left */}
+                  {/* Image Section - always on the left */}
+                  <div className="flex justify-center">
+                    <div className="overflow-hidden rounded-md shadow-lg w-full h-[350px] md:h-[500px]">
+                      <img
+                        src={meet2}
+                        alt="Pastor"
+                        className="object-cover w-full h-full"
+                      />
+                    </div>
+                  </div>
+                  {/* Text Section - always on the right */}
                   <div className="flex flex-col justify-center space-y-6">
                     <p className="text-lg">
                       Dr Eric Nana Danso is a dedicated and compassionate pastor
@@ -131,23 +141,11 @@ const AboutUs = () => {
                     </p>
                     <div className="flex justify-center md:block"></div>
                   </div>
-
-                  {/* Image Section - always on the right */}
-                  <div className="flex justify-center">
-                    <div className="overflow-hidden rounded-md shadow-lg w-full h-[350px] md:h-[500px]">
-                      <img
-                        src={meet2}
-                        alt="Pastor"
-                        className="object-cover w-full h-full"
-                      />
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        
       </section>
       <Footer />
     </div>
